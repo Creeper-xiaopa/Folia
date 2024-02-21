@@ -21,10 +21,10 @@ added to the tracker is just easier to do, so that is what
 this patch does.
 
 diff --git a/src/main/java/net/minecraft/server/level/ChunkMap.java b/src/main/java/net/minecraft/server/level/ChunkMap.java
-index 21ec49acb3c1241d9286959c42a7f8363f637e4f..79e507c1463dbb9039b1fed8bdf41c0ee5f4fec3 100644
+index 761ac5d56462fc01bdea510c076c63a6be13d315..f37228883d32d6dc63178ef1689eed86316d7c19 100644
 --- a/src/main/java/net/minecraft/server/level/ChunkMap.java
 +++ b/src/main/java/net/minecraft/server/level/ChunkMap.java
-@@ -1419,6 +1419,7 @@ public class ChunkMap extends ChunkStorage implements ChunkHolder.PlayerProvider
+@@ -1398,6 +1398,7 @@ public class ChunkMap extends ChunkStorage implements ChunkHolder.PlayerProvider
                          this.serverEntity.addPairing(player);
                          }
                          // Paper end - entity tracking events
